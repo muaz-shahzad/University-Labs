@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Style.css">
+
+    <title>Lab_1</title>
+
+</head>
+
+<body>
+
+    <!--  Header Section-->
+    <header>
+        <nav>
+            <ul style="list-style: none;display: flex;justify-content: space-evenly;">
+                <a href="index.html" style="text-decoration:none">
+                    <li>Home</li>
+                </a>
+                <a href="About.html" style="text-decoration:none">
+                    <li>About</li>
+                </a>
+                <a href="Contact_us.html" style="text-decoration:none">
+                    <li>Contact</li>
+                </a>
+                <a href="Gallery.html" style="text-decoration:none">
+                    <li>Gallery</li>
+                </a>
+                <a href="Registration.html" style="text-decoration:none">
+                    <li>Registration</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <h2 style="display: flex;justify-content: center;color: blue">Student Registration Form</h2>
+    <section style="display: flex;justify-content: center;">
+        <div>
+            <form action="" method="post">
+                <table class="tb" cellpadding="4">
+                    <tr>
+                        <td>
+                            <label for="text">First Name</label>
+                        </td>
+                        <td>
+                            <input type="text" name="" placeholder="Please Enter name" maxlength="30">
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="text">Last Name</label>
+                        </td>
+                        <td>
+                            <input type="text" name="" placeholder="Please Enter name" maxlength="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="text">Dob</label>
+                        </td>
+                        <td>
+                            <input type="date" name="" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="text">Email</label>
+                        </td>
+                        <td>
+                            <input type="email" placeholder="Enter Email address">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="text">Number</label>
+                        </td>
+                        <td>
+                            <input type="number" maxlength="10" placeholder="Enter Mobile number">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="text">Gender</label>
+                        </td>
+                        <td>
+                            Male<input type="radio" name="gender" id="">
+                            Female<input type="radio" name="gender" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="text">Address</label>
+                        </td>
+                        <td>
+                            <textarea name="textaddress" id="" cols="30" rows="3">
+                            </textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="text">City</label>
+                        </td>
+                        <td>
+                            <input type="text" placeholder="Enter city name" maxlength="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="text">Pin Code</label>
+                        </td>
+                        <td>
+                            <input type="number" placeholder="Enter pincode" maxlength="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="text">State</label>
+                        </td>
+                        <td>
+                            <input type="text" name="" placeholder="Enter state" maxlength="30">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="text">Country</label>
+                        </td>
+                        <td>
+                            <input type="text" name="" placeholder="Enter country" maxlength="30">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="text">Hobbies</label>
+                        </td>
+                        <td>
+                            Drawing <input type="checkbox" value="drawing">
+                            Singing <input type="checkbox" value="Singing">
+                            Dancing <input type="checkbox" value="Dancing">
+                            Sketching <input type="checkbox" value="Sketching"><br>
+                        </td>
+                        <br>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="text">Qualification</label>
+                        </td>
+                        <td>
+                            <table>
+                                <tr class="tb1">
+                                    <td>S.No</td>
+                                    <td>Examination</td>
+                                    <td>Board</td>
+                                    <td>Percentage</td>
+                                    <td>Year Of Passing</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>CLASS X</td>
+                                    <td><input type="text" name="" id=""></td>
+                                    <td><input type="number" name="" maxlength="10" id=""></td>
+                                    <td><input type="number" name="" maxlength="4" id=""></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>CLASS XI</td>
+                                    <td><input type="text" name="" id=""></td>
+                                    <td><input type="number" name="" maxlength="10" id=""></td>
+                                    <td><input type="number" name="" maxlength="4" id=""></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Graduation</td>
+                                    <td><input type="text" name="" id=""></td>
+                                    <td><input type="number" name="" maxlength="10" id=""></td>
+                                    <td><input type="number" name="" maxlength="4" id=""></td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Master</td>
+                                    <td><input type="text" name="" id=""></td>
+                                    <td><input type="number" name="" maxlength="10" id=""></td>
+                                    <td><input type="number" name="" maxlength="4" id=""></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="text">Courses</label>
+                        </td>
+                        <td>
+                            BCA<input type="radio" name="Course" id="">
+                            B.Com<input type="radio" name="Course" id="">
+                            B.Sc<input type="radio" name="Course" id="">
+                            B.A<input type="radio" name="Course" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <td colspan="2">
+                        <div class="btn-div">
+                            <input class="btns" type="submit" value="Submit">
+                            <button class="btnc" type="reset" class="btn">Cancel</button>
+                        </div>
+                    </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </section>
+    <br><br>
+    <!-- Footer Of Website -->
+    <section>
+        <footer>
+            <ul style="list-style: none;display: flex;justify-content: space-around;">
+                <li>
+                    <a class="fb" href="">Facebook</a>
+                </li>
+                <li><a class="Google" href="">Google</a></li>
+                <li><a class="Insta" href="">Instagram</a></li>
+            </ul>
+            <div class="foot">
+                <h6>All Rights Reserved || M Muaz Shahzad</h6>
+            </div>
+        </footer>
+    </section>
+</body>
+
+</html>
