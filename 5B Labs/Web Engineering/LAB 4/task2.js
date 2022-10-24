@@ -1,0 +1,13 @@
+var array = ["Banana", " Apples", " Oranges", " Blueberries"];
+document.write(" <b>Array:</b> "+array +"<br> <br>");
+array.shift();
+document.write("<b>1) Remove Banana [Using Shift()] Method: </b> "+array +"<br> <br>");
+array.sort();
+document.write("<b>2) Sort Array [Using Sort()] Method: </b> "+array+ "<br> <br>");
+array.push("kiwi");
+document.write("<b>3) Add kiwi [Using Push()] Method: </b> "+array + "<br> <br>");
+array.shift();
+document.write("<b>4) Remove Apple [Using Shift()] Method: </b> "+array+ "<br> <br>");
+array.reverse();
+document.write("<b>5) Sort Array [Using Reverse()] Method: </b> "+array+ "<br> <br>");
+var array = ["Banana", "Apples", "Oranges", "Blueberries"];
