@@ -1,0 +1,44 @@
+.children{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.same{
+    margin: 10px 5px;
+}
+#table{
+    border-radius: 5px;
+    border: none;
+    /* border-bottom:  3px solid orangered; */
+    
+}
+#table,#btn{
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#btn{
+    background-color: rgba(64, 226, 255, 0.445);
+    border: none;
+    border-radius: 4px;
+    width: 60%;
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 30px !important;
+
+}
+#btn:hover{
+    color: white;
+    background-color: green;
+}
+.tableprint{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* text-align: center; */
+    /* line-height: 2px; */
+    line-height:2rem;
+    margin-left: 190px !important;
+    font-size: 22px ;
+}
